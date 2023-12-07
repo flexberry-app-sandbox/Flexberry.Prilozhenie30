@@ -21,13 +21,18 @@ namespace IIS.Prilozhenie_30
 
 
     /// <summary>
-    /// СправДол.
+    /// Справ дол.
     /// </summary>
     // *** Start programmer edit section *** (СправДол CustomAttributes)
 
     // *** End programmer edit section *** (СправДол CustomAttributes)
     [AutoAltered()]
+    [Caption("Справ дол")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
+    [View("СправДолE", new string[] {
+            "Должность as \'Должность\'"})]
+    [View("СправДолL", new string[] {
+            "Должность as \'Должность\'"})]
     public class СправДол : ICSSoft.STORMNET.DataObject
     {
         
@@ -67,6 +72,35 @@ namespace IIS.Prilozhenie_30
                 // *** Start programmer edit section *** (СправДол.Должность Set end)
 
                 // *** End programmer edit section *** (СправДол.Должность Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Class views container.
+        /// </summary>
+        public class Views
+        {
+            
+            /// <summary>
+            /// "СправДолE" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View СправДолE
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("СправДолE", typeof(IIS.Prilozhenie_30.СправДол));
+                }
+            }
+            
+            /// <summary>
+            /// "СправДолL" view.
+            /// </summary>
+            public static ICSSoft.STORMNET.View СправДолL
+            {
+                get
+                {
+                    return ICSSoft.STORMNET.Information.GetView("СправДолL", typeof(IIS.Prilozhenie_30.СправДол));
+                }
             }
         }
     }

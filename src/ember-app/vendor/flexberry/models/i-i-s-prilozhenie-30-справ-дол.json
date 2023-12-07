@@ -18,7 +18,36 @@
   ],
   "belongsTo": [],
   "hasMany": [],
-  "projections": [],
+  "projections": [
+    {
+      "name": "СправДолE",
+      "modelName": "i-i-s-prilozhenie-30-справ-дол",
+      "attrs": [
+        {
+          "name": "должность",
+          "caption": "Должность",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СправДолL",
+      "modelName": "i-i-s-prilozhenie-30-справ-дол",
+      "attrs": [
+        {
+          "name": "должность",
+          "caption": "Должность",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
   "stored": true,
   "offline": true,
   "external": false

@@ -13,7 +13,19 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.index.caption'),
           title: i18n.t('forms.application.sitemap.index.title'),
           children: null
-        }, 
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.prilozhenie-30.caption'),
+          title: i18n.t('forms.application.sitemap.prilozhenie-30.title'),
+          children: [{
+            link: 'i-i-s-prilozhenie-30-справ-дол-l',
+            caption: i18n.t('forms.application.sitemap.prilozhenie-30.i-i-s-prilozhenie-30-справ-дол-l.caption'),
+            title: i18n.t('forms.application.sitemap.prilozhenie-30.i-i-s-prilozhenie-30-справ-дол-l.title'),
+            icon: 'calendar',
+            children: null
+          }]
+        }
       ]
     };
   }),

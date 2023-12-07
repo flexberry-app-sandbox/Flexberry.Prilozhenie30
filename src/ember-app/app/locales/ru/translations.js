@@ -1,6 +1,8 @@
 import $ from 'jquery';
 import EmberFlexberryTranslations from 'ember-flexberry/locales/ru/translations';
 
+import IISPrilozhenie_30СправДолLForm from './forms/i-i-s-prilozhenie-30-справ-дол-l';
+import IISPrilozhenie_30СправДолEForm from './forms/i-i-s-prilozhenie-30-справ-дол-e';
 import IISPrilozhenie_30СправДолModel from './models/i-i-s-prilozhenie-30-справ-дол';
 
 const translations = {};
@@ -11,7 +13,7 @@ $.extend(true, translations, {
     'i-i-s-prilozhenie-30-справ-дол': IISPrilozhenie_30СправДолModel
   },
 
-  'application-name': '',
+  'application-name': 'Prilozhenie_30',
 
   forms: {
     loading: {
@@ -50,7 +52,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': '',
+        'application-name': 'Prilozhenie_30',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -61,8 +63,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: '',
-          title: ''
+          caption: 'Prilozhenie_30',
+          title: 'Prilozhenie_30'
         },
         'application-version': {
           caption: 'Версия аддона {{version}}',
@@ -74,7 +76,14 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
-
+        'prilozhenie-30': {
+          caption: 'Prilozhenie_30',
+          title: 'Prilozhenie_30',
+          'i-i-s-prilozhenie-30-справ-дол-l': {
+            caption: 'Справ дол',
+            title: ''
+          }
+        }
       }
     },
 
@@ -86,7 +95,8 @@ $.extend(true, translations, {
       'delete-success-message': 'Объект удален',
       'delete-error-message-caption': 'Ошибка удаления'
     },
-
+    'i-i-s-prilozhenie-30-справ-дол-l': IISPrilozhenie_30СправДолLForm,
+    'i-i-s-prilozhenie-30-справ-дол-e': IISPrilozhenie_30СправДолEForm
   },
 
 });

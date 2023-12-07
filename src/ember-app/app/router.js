@@ -6,7 +6,11 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function () {
-
+  this.route('i-i-s-prilozhenie-30-справ-дол-l');
+  this.route('i-i-s-prilozhenie-30-справ-дол-e',
+  { path: 'i-i-s-prilozhenie-30-справ-дол-e/:id' });
+  this.route('i-i-s-prilozhenie-30-справ-дол-e.new',
+  { path: 'i-i-s-prilozhenie-30-справ-дол-e/new' });
 });
 
 export default Router;

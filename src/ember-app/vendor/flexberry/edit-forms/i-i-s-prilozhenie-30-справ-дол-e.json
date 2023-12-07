@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Справ дол",
+  "name": "IISPrilozhenie_30СправДолE",
+  "className": "СправДолE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-prilozhenie-30-справ-дол",
+      "modelProjection": "СправДолE"
+    }
+  ]
+}
