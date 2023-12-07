@@ -1,0 +1,25 @@
+﻿{
+  "name": "IISPrilozhenie_30СправДол",
+  "modelName": "i-i-s-prilozhenie-30-справ-дол",
+  "className": "СправДол",
+  "nameSpace": "IIS.Prilozhenie_30",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "должность",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
