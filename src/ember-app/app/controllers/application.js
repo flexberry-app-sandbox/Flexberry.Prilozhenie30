@@ -28,7 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-prilozhenie-30-справ-дол-l',
             caption: i18n.t('forms.application.sitemap.prilozhenie-30.i-i-s-prilozhenie-30-справ-дол-l.caption'),
             title: i18n.t('forms.application.sitemap.prilozhenie-30.i-i-s-prilozhenie-30-справ-дол-l.title'),
-            icon: 'calendar',
+            icon: 'address card',
             children: null
           }]
         }
